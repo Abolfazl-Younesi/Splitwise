@@ -1,0 +1,7 @@
+{
+  "model": {"num_layers": 12, "num_heads": 8, "hidden_dim": 512},
+  "system": {"state_dim": 39, "history_length": 100},
+  "training": {"learning_rate": 0.0003, "discount_factor": 0.99, "v_min": 0.1, "v_max": 10,
+                 "initial_temperature": 1.0, "temperature_decay": 0.995},
+  "reward": {"cost_weights": {"latency": 1.0, "energy": 0.1, "accuracy": 0.5}}
+}
