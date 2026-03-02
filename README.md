@@ -1,6 +1,6 @@
 # Splitwise
 
-**Efficient Partitioning of LLMs for Edge-Cloud Collaborative Inference via Lyapunov-assisted Reinforcement Learning**
+**Splitwise: Collaborative Edge–Cloud Inference for LLMs via Lyapunov-Assisted DRL**
 
 This repository contains an implementation of the **Splitwise** framework algorithm only described in the UCC 2025 paper: "Splitwise: Efficient Partitioning of LLMs for Edge-Cloud Collaborative Inference via Lyaponov-assisted RL". The core idea is to dynamically partition large language models (LLMs) between resource-constrained edge devices and powerful cloud servers by leveraging Lyapunov optimization theory within a reinforcement learning loop.
 
@@ -97,4 +97,5 @@ If you use this work in your research, please cite:
 ---
 
 the code in this workspace provides a baseline for research and experimentation. Use it as a starting point for extending partition strategies, exploring reinforcement learning techniques, or integrating with real edge-cloud systems.
+
 
